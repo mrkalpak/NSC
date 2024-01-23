@@ -1,0 +1,16 @@
+.heroimg{
+    position: relative;
+    
+}
+.herotext{
+    position: absolute;
+    top: 50%;
+    left: 11.5%;
+    color: black !important;
+}
+.herotext>h3{
+    font-weight: 400 !important;
+}
+.herotext>h1{
+    font-weight: 500 !important;
+}
