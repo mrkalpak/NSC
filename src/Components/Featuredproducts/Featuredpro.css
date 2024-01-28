@@ -1,0 +1,23 @@
+.width-row{
+    width: fit-content !important;
+}
+.pagination {
+
+        --bs-pagination-bg: trasperant !important;
+        --bs-pagination-disabled-bg: trasperant !important;
+        --bs-pagination-color: white !important;
+        --bs-pagination-hover-color: black !important;
+        --bs-pagination-disabled-color: #e6e6e6 !important;
+}
+.feature-head{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 767px) {
+    
+    .feature-head{
+        display: block;
+        
+    }
+    
+}

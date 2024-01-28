@@ -1,0 +1,16 @@
+.feature{
+    background-color: #313131 !important;
+}
+.feature > .row{
+    width: 55%;
+}
+.pagination-testimonials {
+
+    --bs-pagination-bg: trasperant !important;
+    --bs-pagination-disabled-bg: trasperant !important;
+    --bs-pagination-color: black !important;
+    --bs-pagination-hover-color: black !important;
+    --bs-pagination-disabled-color: #3c3c3c !important;
+    --bs-pagination-border-color: black !important;
+    --bs-pagination-disabled-border-color:#3c3c3c !important;
+}

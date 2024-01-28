@@ -1,0 +1,19 @@
+/* ProductCard.css */
+
+.card {
+    width: 300px !important;
+    background-color: #313131 !important;
+  }
+  
+  .card-img-top-testimonials {
+    width: 25% !important;
+    /* height: 400px;  */
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 1/1;
+    object-fit: fill;
+  }
+  .desc{
+    font-size: smaller;
+  }
+  /* Add more styles as needed */

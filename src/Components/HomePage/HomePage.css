@@ -14,3 +14,13 @@
 .herotext>h1{
     font-weight: 500 !important;
 }
+.newcollectionimg{
+    aspect-ratio: 10/17 !important;
+    height: inherit;
+    width: 100%;
+}
+.newcollectionimg1{
+    aspect-ratio: 9/16 !important;
+    height: 100%;
+    width: 100%;
+}
