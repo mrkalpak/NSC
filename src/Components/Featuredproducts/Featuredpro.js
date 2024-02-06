@@ -5,6 +5,7 @@ import './Featuredpro.css';
 import ProductCard from '../ProductCard/ProductCard';
 import product1Image from '../../img/product1.png';
 import product1Image1 from '../../img/product2.png';
+import longimg from '../../img/newcollection1.png'
 
 
 // const productsPerPage = 4;
@@ -16,6 +17,7 @@ const products = [
     oriprice: 800,
     disprice : 500,
     image: product1Image,
+    fullimage : longimg,
     // Add more product details as needed
   },
   {
@@ -25,6 +27,7 @@ const products = [
     oriprice: 800,
     disprice : 500,
     image: product1Image1,
+    fullimage : product1Image
     // Add more product details as needed
   },
   {
@@ -33,6 +36,7 @@ const products = [
     oriprice: 800,
     disprice : 500,
     image: product1Image,
+    fullimage : product1Image1,
     // Add more product details as needed
   },
   {
@@ -41,6 +45,8 @@ const products = [
     oriprice: 800,
     disprice : 500,
     image: product1Image1,
+    fullimage : product1Image,
+
     // Add more product details as needed
   },
   {
@@ -49,6 +55,8 @@ const products = [
     oriprice: 800,
     disprice : 500,
     image: product1Image1,
+    fullimage : product1Image
+
     // Add more product details as needed
   },
   // Add more products as needed

@@ -1,0 +1,8 @@
+#email-footer::placeholder {
+  color: #fff; /* Set the desired color */
+}
+hr {
+    
+    color: white !important;
+    opacity : .75 !important;
+}

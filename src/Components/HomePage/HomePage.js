@@ -9,6 +9,7 @@ import newcollection1 from "../../img/newcollection2.png"
 import newcollection2 from "../../img/newcollection3.png"
 import newcollection3 from "../../img/newcollection4.png"
 import CoustomerTesto from '../CoustomerTesto/CoustomerTesto';
+import Footer from '../footer/Footer';
 const imageList = [newcollection, newcollection1, newcollection2, newcollection3];
 
 function HomePage() {
@@ -45,15 +46,15 @@ function HomePage() {
             <img src={imageList[currentImageIndex]} className='newcollectionimg bg-white px-5 mt-5  py-3' alt="New Collection" />
           
           </div>
-          <div className='col-md-6 my-2'>
-            <img src={imageList[(currentImageIndex + 1) % imageList.length]} className='newcollectionimg1 bg-white px-5 w-100 py-3' alt="New Collection" />
+          <div className='col-md-6 my-2 text-center'>
+            <img src={imageList[(currentImageIndex + 1) % imageList.length]} className='newcollectionimg1 bg-white mb-4 px-5 w-100 py-3' alt="New Collection" />
+            <button className='btn btn-trasperant btn-lg mt-4  fs-4 my-3 px-0 text-white border-0'>SHOW THE COLLECTION <i className="bi bi-arrow-right"></i></button>
           </div>
-            <button className='btn btn-trasperant btn-lg fs-4 my-3 px-0 text-white border-0'>SHOW THE COLLECTION <i className="bi bi-arrow-right"></i></button>
         </div>
       </div>
 
 <CoustomerTesto/>
-
+<Footer/>
 
     </div>
   );
